@@ -1,0 +1,78 @@
+@font-face {
+    font-family: jujutsu;
+    src: url(fontes/Jujutsu\ Kaisen.ttf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: jujutsu;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgba(136, 10, 10, 0.5);
+}
+header h1{
+    font-size: 3vw;
+}
+nav{
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(109, 18, 194, 0.5);
+    align-items: center;
+}
+nav a{
+    color: aliceblue;
+    font-size: 1.2vw;
+    transition: 1000ms;
+}
+nav a:hover{
+    color: rgb(125, 126, 128);
+    font-size: 1.4vw;
+}
+main{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.meio{
+    height: 40vh;
+    width: 35vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 45px;
+    box-shadow: 0px 20px 30px rgba(109, 18, 194, 0.5);
+    opacity: 0.8;
+    transition: 800ms;
+}
+.meio:hover{
+    height: 50vh;
+    width: 40vw;
+}
+.m1{
+    background-image: url(images/gojo1.webp);
+}
+.m2{
+    background-position: center;
+    background-image: url(images/gojo2.png);
+}
+footer{
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+}
